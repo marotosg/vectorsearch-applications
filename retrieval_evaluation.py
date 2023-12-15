@@ -1,5 +1,5 @@
 #external files
-from openai_interface import GPT_Turbo
+#from openai_interface import GPT_Turbo
 from weaviate_interface import WeaviateClient
 from llama_index.finetuning import EmbeddingQAFinetuneDataset
 from reranker import ReRanker

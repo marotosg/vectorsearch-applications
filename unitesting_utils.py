@@ -10,7 +10,7 @@ def load_impact_theory_data():
        downloads data direct from course repo.
     '''
     try:
-        path = '/content/impact_theory_data.json'
+        path = './data/impact_theory_data.json'
         with open(path) as f:
             data = json.load(f)
         return data
